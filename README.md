@@ -19,7 +19,7 @@ Możesz używać kontrolerka z zestawu albo pada z PlayStation.
 
 Po wpisaniu w goole `<nazwa gry> ROM` powino się dać coś znaleźć. Lista obsługiwanych formatów jest dostępna tutaj: https://github.com/RetroPie/RetroPie-Setup/wiki/Supported-Systems. Jest to lista dla bardzo podobnego systemu (aczkolwiek nie identycznego), ale lista powinna się z grubsza pokrywać.
 
-Dla przykładu: chcemy pobrać ROM *Legend of Zelda: Ocarina of Time*. Po chwili googlowania trafiamy na (tą stronę)[https://emulator.games/roms/nintendo-64/legend-of-zelda-the-ocarina-of-time-v1-2/]. Po pobraniu i rozpakowaniu okazuje się że plik ma rozszerzenie `.n64` a w tabelce widzimy że to jest obsługiwany format - wszytko OK.
+Dla przykładu: chcemy pobrać ROM *Legend of Zelda: Ocarina of Time*. Po chwili googlowania trafiamy na [tą stronę](https://emulator.games/roms/nintendo-64/legend-of-zelda-the-ocarina-of-time-v1-2/). Po pobraniu i rozpakowaniu okazuje się że plik ma rozszerzenie `.n64` a w tabelce widzimy że to jest obsługiwany format - wszytko OK.
 
 Teraz ROMa wystarczy przenieść na konsolkę.
 
@@ -47,9 +47,9 @@ W tym momencie powinien się otworzyć folder, na którym znajdują się pliki z
 
 #### Jeżeli poprzedni krok nie wyjdzie
 
-Do przesyłania plików potrzebny jest program pozwalający na połączenie (ssh)[https://pomoc.nazwa.pl/baza-wiedzy/produkty-i-uslugi/serwery/korzystanie-z-serwera/co-to-jest-ssh-ido-czego-sluzy/]/(sftp)[https://pomoc.nazwa.pl/baza-wiedzy/produkty-i-uslugi/serwery/korzystanie-z-serwera/co-to-jest-sftp/].
+Do przesyłania plików potrzebny jest program pozwalający na połączenie [ssh](https://pomoc.nazwa.pl/baza-wiedzy/produkty-i-uslugi/serwery/korzystanie-z-serwera/co-to-jest-ssh-ido-czego-sluzy/)/[sftp](https://pomoc.nazwa.pl/baza-wiedzy/produkty-i-uslugi/serwery/korzystanie-z-serwera/co-to-jest-sftp/).
 
-Przykładowy program: (FileZilla)[https://filezilla-project.org/download.php?platform=win64].
+Przykładowy program: [FileZilla](https://filezilla-project.org/download.php?platform=win64).
 
 Login: root
 pw: linux
