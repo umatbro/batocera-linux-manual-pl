@@ -17,7 +17,7 @@ Możesz używać kontrolerka z zestawu albo pada z PlayStation.
 
 ### Skąd brać gry?
 
-Po wpisaniu w goole `<nazwa gry> ROM` powino się dać coś znaleźć. Lista obsługiwanych formatów jest dostępna tutaj: https://github.com/RetroPie/RetroPie-Setup/wiki/Supported-Systems. Jest to lista dla bardzo podobnego systemu (aczkolwiek nie identycznego), ale lista powinna się z grubsza pokrywać.
+Po wpisaniu w google `<nazwa gry> ROM` powino się dać coś znaleźć. Lista obsługiwanych formatów jest dostępna tutaj: https://github.com/RetroPie/RetroPie-Setup/wiki/Supported-Systems. Jest to lista dla bardzo podobnego systemu (aczkolwiek nie identycznego), ale lista powinna się z grubsza pokrywać.
 
 Dla przykładu: chcemy pobrać ROM *Legend of Zelda: Ocarina of Time*. Po chwili googlowania trafiamy na [tą stronę](https://emulator.games/roms/nintendo-64/legend-of-zelda-the-ocarina-of-time-v1-2/). Po pobraniu i rozpakowaniu okazuje się że plik ma rozszerzenie `.n64` a w tabelce widzimy że to jest obsługiwany format - wszytko OK.
 
@@ -49,8 +49,29 @@ W tym momencie powinien się otworzyć folder, na którym znajdują się pliki z
 
 Do przesyłania plików potrzebny jest program pozwalający na połączenie [ssh](https://pomoc.nazwa.pl/baza-wiedzy/produkty-i-uslugi/serwery/korzystanie-z-serwera/co-to-jest-ssh-ido-czego-sluzy/)/[sftp](https://pomoc.nazwa.pl/baza-wiedzy/produkty-i-uslugi/serwery/korzystanie-z-serwera/co-to-jest-sftp/).
 
-Przykładowy program: [FileZilla](https://filezilla-project.org/download.php?platform=win64).
+Przykładowy program: [FileZilla](https://filezilla-project.org/download.php?platform=win64). To on będzie wykorzystywany w dalszej części instrukcji.
 
-Login: root
-pw: linux
+Pierwsze co to trzeba odczytać adres IP konsolki. W głównym menu (po naciśnięciu przycisku `start`) przejdź do `Network settings` i zapisz numer IP z pola `IP address`. 
+
+W FileZilli wprowadź następujące dane:
+* Host: <ip odczytane z konsolki>
+* Username: `root`
+* Password: `linux`
+* Port: 22
+
+I klik `Quickconnect`.
+
+![screenshot](img/address1.PNG)
+
+Główny katalog z plikami znajduje się pod ścieżką `/recalbox/share`
+
+![screenshot](img/address.PNG)
+
+Pliki z romami wrzuca się do `/recalbox/share/roms/<katalog konsoli>`
+
+# Kodi
+
+[Kodi](https://kodi.tv/) to system do odtwarzania multimediów.
+
+
 todo: instrukcje jak zmienić hasło
