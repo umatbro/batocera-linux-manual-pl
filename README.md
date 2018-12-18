@@ -54,7 +54,7 @@ Przykładowy program: [FileZilla](https://filezilla-project.org/download.php?pla
 Pierwsze co to trzeba odczytać adres IP konsolki. W głównym menu (po naciśnięciu przycisku `start`) przejdź do `Network settings` i zapisz numer IP z pola `IP address`. 
 
 W FileZilli wprowadź następujące dane:
-* Host: <ip odczytane z konsolki>
+* Host: `<ip odczytane z konsolki>`
 * Username: `root`
 * Password: `linux`
 * Port: 22
