@@ -73,5 +73,6 @@ Pliki z romami wrzuca się do `/recalbox/share/roms/<katalog konsoli>`
 
 [Kodi](https://kodi.tv/) to system do odtwarzania multimediów.
 
+Można przesłać pliki tak samo jak romy, tylko że tym razem do `/recalbox/share/kodi/movies/`
 
-todo: instrukcje jak zmienić hasło
+Po podłączeniu dysku twardego przez USB konsolka może być domowym centrum danych.
