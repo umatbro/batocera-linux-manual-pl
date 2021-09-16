@@ -69,6 +69,10 @@ Główny katalog z plikami znajduje się pod ścieżką `/recalbox/share`
 
 Pliki z romami wrzuca się do `/recalbox/share/roms/<katalog konsoli>`
 
+## Zgrywanie BIOSów
+
+Pobierz paczkę dla **Batocera** z [wątku na reddicie](https://www.reddit.com/r/Roms/comments/gh3i98/full_clean_bioses_set_for_retroarch_retropie/?utm_source=amp&utm_medium&utm_content=post_body). Wypakuj zawartość folderu `bios` do folderu `bios` na Raspberry.
+
 # Kodi
 
 [Kodi](https://kodi.tv/) to system do odtwarzania multimediów.
